@@ -19,4 +19,4 @@ curl_close($ch);
 header("Content-Type: image/jpeg");
 
 // Display the contents that we fetched earlier
-echo ($output);
+echo($output);
