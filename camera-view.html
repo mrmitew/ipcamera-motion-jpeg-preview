@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Camera preview demo</title>
+    </head>
+    <body>
+        <img src="camera-snapshot.jpg" name="refresh1" width="475" height="350">
+ 
+        <script language="JavaScript" type="text/javascript"> 
+        	<!-- 
+        		var t = 1 // interval in seconds 
+        		camimage = "http://127.0.0.1/camera-snapshot.jpg"
+        		
+        		function refresh() { 
+        			tmp = new Date(); 
+        			tmp = "?"+tmp.getTime() 
+        			document.images["refresh1"].src = camimage+tmp 
+        			setTimeout("refresh()", t*1000) 
+        		}
+        		refresh(); 
+        	// --> 
+        </script>
+    </body>
+</html>
